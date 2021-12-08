@@ -4,3 +4,10 @@
     width:25%;
     height:auto;
 }
+
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+
+}
