@@ -41,3 +41,13 @@ ul {
 .main-header .mobile{
     text-align:center;
 }
+
+/*mobile nav*/
+.topnav #my-links{
+    display: block;
+}
+
+.topnav  #my-links a{
+    display: block;
+    margin: 0;
+}
