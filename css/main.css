@@ -29,6 +29,7 @@ a{
 }
 
 ul {
+
     list-style-type: none;
     text-decoration: none;
 }
@@ -50,4 +51,24 @@ ul {
 .topnav  #my-links a{
     display: block;
     margin: 0;
+}
+ /* staylong nav menu links*/
+.topnav  a{
+    padding-top: 9px;
+    color:blue;
+    font-weight: bold;
+    font-size:17px;
+    display: inline-block;
+}
+
+.topnav a.icon .fas.fa-bars{
+    margin-top: 18px;
+    width:36px;
+    height:34px;
+    background-color:#ddd;
+    border-radius: 6px;
+    padding-top: 10px;
+    border:transparent;
+    outline:none;
+
 }
