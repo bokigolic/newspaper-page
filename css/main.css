@@ -45,7 +45,7 @@ ul {
 
 /*mobile nav*/
 .topnav #my-links{
-    display: block;
+    display:none;
 }
 
 .topnav  #my-links a{
@@ -67,8 +67,9 @@ ul {
     height:34px;
     background-color:#ddd;
     border-radius: 6px;
-    padding-top: 10px;
+    padding-top: 9px;
     border:transparent;
     outline:none;
 
 }
+
