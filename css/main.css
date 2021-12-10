@@ -176,3 +176,62 @@ ul {
     font-size:20px;
     font-weight:500;
 }
+
+
+.regards     p{
+    margin: 60px 10px 0;
+}
+
+.regards .regards-sign{
+    font-family:"Montez", cursive;
+    margin-top: 10px;
+    font-size:40px;
+    font-weight:500;
+    margin-bottom: 150px;
+
+}
+
+/*Styling aside*/
+
+.aside{
+    display: none;
+}
+
+.main-footer .footer-title{
+    text-align:center;
+
+    margin: 5px;
+}
+
+.about-boki{
+    text-transform: uppercase;
+    color:#9c9c9c;
+    font-size:20px;
+
+}
+
+.about-boki span{
+    border-top: 1px solid #9c9c9c;
+    font-family:"Montez";
+    border-bottom: 1px solid #9c9c9c;
+}
+
+/*footer*/
+
+
+.main-footer{
+    text-align: center;
+}
+
+.main-footer .main-footer-title h4{
+    font-size: 22px;
+    font-weight:400;
+    color:#000;
+    letter-spacing: 0.3px;
+}
+
+.main-footer .main-footer-title p{
+    font-size:16px;
+    color:#9c9c9c;
+    margin-bottom: 15px;
+}
