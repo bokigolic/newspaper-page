@@ -112,7 +112,7 @@ ul {
 
 
 .main-content__heading .line-color{
-    border: 10px solid blue;
+    border-top: 1px solid #9c9c9c;
     border-radius: 3px;
 }
 
@@ -127,9 +127,52 @@ ul {
 }
 
 
-.main-content  .main-content__image {
-    text-transform:lovercase;
-    font-size:55px;
-    margin-bottom:26px;
+.main-content  .main-content__desc {
     
+    font-size:15px;
+    margin-top:15px;
+}
+
+.main-content .main-content__desc .main-content__info{
+    text-transform: uppercase;
+}
+
+.main-content__about .main-content__description{
+    margin-top:15px;
+    font-family: 'Alegreya Sans', sans-serif;
+    
+}
+
+.main-content .main-content__description{
+    font-style: italic;
+    margin: 20px 0 50px 0;
+
+}
+
+.main-content .main-about .main-content__description {
+    text-transform: lowercase!important;
+}
+
+.main-content .main-about .main-content__description strong{
+
+
+    text-transform:uppercase;
+    
+}
+
+
+/*styling about section*/
+
+.about{
+    margin: 0 10px;
+}
+
+.about .about-title{
+    border-top: 1px solid #9c9c9c;
+}
+
+.about .about-title h3{
+    padding: 10px 0;
+    font-size:20px;
+    font-weight:500;
 }
