@@ -28,6 +28,18 @@ a{
     text-decoration: none;
 }
 
+.list-reset{
+    list-style-type: none;
+    text-decoration:none;
+}
+
+.clearfix{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+
 ul {
 
     list-style-type: none;
@@ -234,4 +246,26 @@ ul {
     font-size:16px;
     color:#9c9c9c;
     margin-bottom: 15px;
+    margin-left: 44px;
+}
+
+/*media Query*/
+
+@media screen  and (max-width: 728px) {
+    .main-content{ 
+        width:75%;
+    }
+    .main-content .main-content__image img{
+        width:50%;
+        float:left;
+        margin-right:20px;
+    }
+    .main-footer .main-footer-title{
+    text-align-last: left;
+    margin-left: 100px;
+    }
+    .main-footer .main-footer-title p{
+        margin-left: 44px;
+    }
+
 }
